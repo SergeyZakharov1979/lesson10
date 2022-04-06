@@ -145,8 +145,11 @@ https://css-live.ru/articles/zagadochnye-otstupy-mezhdu-inlajn-blokami.html
 
 
 * {
-  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
   font-size: 16px;
+
+  box-sizing: border-box;
 }
 
 .wrapper {
@@ -156,11 +159,211 @@ https://css-live.ru/articles/zagadochnye-otstupy-mezhdu-inlajn-blokami.html
   
 }
 
-.main-header {
+.header {
   font-size: 0;
 }
 
+.main {
+  background: #f5f5f5;
+}
+
+
+/* ! --------------main-page-------------------- */
+
 .main-page {
+  padding: 26px 0 312px 0;
+  background: url(../img/main-page/BG\ Image.jpg) 0 0/cover no-repeat;
+}
+
+.main__main-page {
   
 }
 
+._container {
+  max-width: 1020px;
+  margin: 0 auto;
+}
+
+.nav {
+  max-width: 1020px;
+  height: 128px;
+}
+
+.main-page__nav {
+  margin: 0 0 126px 0;
+}
+
+.main-page__content {
+  max-width: 583px;
+  text-align: left;
+}
+
+.title {
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 42px;
+
+  color: #02133C;
+}
+
+.main-page__title {
+  margin: 0 0 48px 0;
+}
+
+.title--size-color {
+  font-size: 56px;
+  line-height: 56px;
+
+  color: #FFFFFF;
+}
+
+.btn {
+  /* display: inline-block; */
+  padding: 12px 49px 12px 19px;
+
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  background: url(../img/main-page/arrow_forward_24px.svg) 96% 50% no-repeat, url(../img/main-page/BG.png) 100% 0 no-repeat, url(../img/main-page/Button\ Component\ -\ Base\ Filled.jpg) 0 0 no-repeat;
+  border-radius: 2px;
+  color: #FFFFFF;
+}
+
+.main-page__btn {}
+
+/* ! --------------who-we-are-------------------- */
+
+.who-we-are {
+  max-width: 1020px;
+  padding: 100px 87px 0 87px;
+
+  background: #ffffff url(../img/who-we-are/Gears.png) 100% 0 no-repeat;
+  border-bottom: 1px solid transparent;
+}
+
+.main__who-we-are {
+  margin: -80px 0 230px 0;
+}
+
+.who-we-are__title {
+  max-width: 583px;
+  margin: 0 0 36px 0;
+}
+
+.subtitle {
+  display: inline-block;
+
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+
+  color: #4B4B4B;
+}
+
+.subtitle::before {
+  content: "";
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  padding: 0 0 0 16px;
+
+  background: url(../img/who-we-are/Overline\ Mark.svg) 0 0/24px 24px no-repeat;
+}
+
+.who-we-are__subtitle {
+  margin: 0 0 33px 0;
+}
+
+.text {
+  margin: 0 0 0 0;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+
+  color: #4B4B4B;
+}
+
+.who-we-are__text {
+  margin: 0 0 54px 0;
+}
+
+.who-we-are__img {
+  margin: 0 0 -120px 0;
+}
+
+/* ! --------------promise-------------------- */
+
+.promise {}
+
+.main__promise {
+  margin: 0 0 122px 0;
+}
+
+._container {}
+
+.subtitle {}
+
+.promise__subtitle {
+  margin: 0 0 33px 0;
+}
+
+.title {}
+
+.promise__title {
+  margin: 0 0 68px 0;
+}
+
+.promise__items {
+  margin: 0;
+  padding: 0;
+
+  font-size: 0;
+
+  list-style: none;
+}
+
+.item {
+  display: inline-block;
+  max-width: 324px;
+}
+
+.promise__item {
+  margin: 0 24px 0 0;
+  font-size: 0;
+}
+
+.promise__item:nth-child(3n+3) {
+  margin-right: 0;
+}
+
+.item__icon {
+  padding: 0 23px 0 0;
+  display: inline-block;
+
+  vertical-align: top;
+}
+
+.item__body {
+  display: inline-block;
+  max-width: 235px;
+}
+
+.item__title {
+  margin: 0 0 20px 0;
+
+  font-weight: 900;
+  font-size: 19px;
+  line-height: 26px;
+
+  color: #02133C;
+}
+
+.text {}
