@@ -242,7 +242,6 @@ https://css-live.ru/articles/zagadochnye-otstupy-mezhdu-inlajn-blokami.html
   padding: 100px 87px 0 87px;
 
   background: #ffffff url(../img/who-we-are/Gears.png) 100% 0 no-repeat;
-  border-bottom: 1px solid transparent;
 }
 
 .main__who-we-are {
@@ -295,7 +294,7 @@ https://css-live.ru/articles/zagadochnye-otstupy-mezhdu-inlajn-blokami.html
   margin: 0 0 54px 0;
 }
 
-.who-we-are__img {
+.who-we-are__img img {
   margin: 0 0 -120px 0;
 }
 
