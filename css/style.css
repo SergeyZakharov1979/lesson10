@@ -156,7 +156,6 @@ https://css-live.ru/articles/zagadochnye-otstupy-mezhdu-inlajn-blokami.html
   /* padding: 50px; */
   min-height: 100%;
   overflow: hidden;
-  
 }
 
 .header {
@@ -219,7 +218,7 @@ https://css-live.ru/articles/zagadochnye-otstupy-mezhdu-inlajn-blokami.html
 
 .btn {
   /* display: inline-block; */
-  padding: 12px 49px 12px 19px;
+  padding: 17px 49px 17px 19px;
 
   font-weight: 700;
   font-size: 12px;
@@ -234,6 +233,7 @@ https://css-live.ru/articles/zagadochnye-otstupy-mezhdu-inlajn-blokami.html
 }
 
 .main-page__btn {}
+
 
 /* ! --------------who-we-are-------------------- */
 
@@ -299,6 +299,7 @@ https://css-live.ru/articles/zagadochnye-otstupy-mezhdu-inlajn-blokami.html
   margin: 0 0 -120px 0;
 }
 
+
 /* ! --------------promise-------------------- */
 
 .promise {}
@@ -307,15 +308,9 @@ https://css-live.ru/articles/zagadochnye-otstupy-mezhdu-inlajn-blokami.html
   margin: 0 0 122px 0;
 }
 
-._container {}
-
-.subtitle {}
-
 .promise__subtitle {
   margin: 0 0 33px 0;
 }
-
-.title {}
 
 .promise__title {
   margin: 0 0 68px 0;
@@ -366,4 +361,127 @@ https://css-live.ru/articles/zagadochnye-otstupy-mezhdu-inlajn-blokami.html
   color: #02133C;
 }
 
+/* ! --------------video-block----------------- */
+
+.video-block {
+  padding: 112px 0 120px 0;
+
+  background: url(../img/video-block/BG\ Image.jpg) 0 0/cover no-repeat;
+}
+
+.video-block__title {
+  max-width: 411px;
+  margin: 0 0 30px auto;
+
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 42px;
+
+  color: #FFFFFF;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.video-block__link {
+  position: relative;
+
+  display: block;
+  width: 87px;
+  height: 87px;
+  margin: 0 300px 0 auto;
+
+  background: #ffffff url(../img/video-block/play_arrow_24px.svg) 60% center no-repeat;
+  border-radius: 50%;
+}
+
+.video-block__link:hover::before {
+  position: absolute;
+  top: -12px;
+  left: -12px;
+
+  content: "";
+  display: block;
+  width: 112px;
+  height: 112px;
+  
+  background: rgba(255,255,255,0.2);
+  border-radius: 50%;
+}
+
+.video-block__link:hover::after {
+  position: absolute;
+  top: -26px;
+  left: -26px;
+
+  content: "";
+  display: block;
+  width: 140px;
+  height: 140px;
+
+  background: rgba(255,255,255,0.1);
+  border-radius: 50%;
+}
+
+
+/* ! --------------services----------------- */
+
+.sevices {
+  padding: 110px 0 122px 0;
+}
+
+.main__services {}
+
+.sevices__subtitle {
+  margin: 0 0 33px 0;
+}
+
+.sevices__title {
+  margin: 0 0 78px 0;
+}
+
+.services__offers {
+  padding: 0;
+  margin: 0 0 66px 0;
+  font-size: 0;
+  list-style: none;
+}
+
+.card {
+  display: inline-block;
+  max-width: 324px;
+  padding: 50px 43px;
+  text-align: center;
+  background: #ffffff;
+}
+
+.card:hover {
+  filter: drop-shadow(0px 8px 16px rgba(38, 38, 38, 0.24)) drop-shadow(0px 16px 24px rgba(38, 38, 38, 0.2));
+}
+
+.services__card {
+  margin-bottom: 24px;
+}
+
+.services__card:not(:nth-of-type(3n+3)) {
+  margin: 0 24px 0 0;
+}
+
+.card__icon {
+  margin: 0 0 33px 0;
+}
+
+.card__title {
+  margin: 0 0 20px 0;
+  font-weight: 900;
+  font-size: 19px;
+  line-height: 26px;
+  color: #02133C;
+}
+
 .text {}
+
+.services__row {
+  text-align: center;
+}
