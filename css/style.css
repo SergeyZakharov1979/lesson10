@@ -198,6 +198,7 @@ https://css-live.ru/articles/zagadochnye-otstupy-mezhdu-inlajn-blokami.html
 }
 
 .title {
+  m0
   font-weight: 900;
   font-size: 36px;
   line-height: 42px;
@@ -206,7 +207,7 @@ https://css-live.ru/articles/zagadochnye-otstupy-mezhdu-inlajn-blokami.html
 }
 
 .main-page__title {
-  margin: 0 0 48px 0;
+  margin: 0 0 53px 0;
 }
 
 .title--size-color {
@@ -217,8 +218,8 @@ https://css-live.ru/articles/zagadochnye-otstupy-mezhdu-inlajn-blokami.html
 }
 
 .btn {
-  /* display: inline-block; */
-  padding: 17px 49px 17px 19px;
+  display: inline-block;
+  padding: 12px 49px 12px 19px;
 
   font-weight: 700;
   font-size: 12px;
@@ -231,8 +232,6 @@ https://css-live.ru/articles/zagadochnye-otstupy-mezhdu-inlajn-blokami.html
   border-radius: 2px;
   color: #FFFFFF;
 }
-
-.main-page__btn {}
 
 
 /* ! --------------who-we-are-------------------- */
@@ -428,6 +427,8 @@ https://css-live.ru/articles/zagadochnye-otstupy-mezhdu-inlajn-blokami.html
 
 .sevices {
   padding: 110px 0 122px 0;
+
+  background: url(../img/services/Gears.png) right bottom no-repeat, url(../img/services/Gearstop.png) left top no-repeat;
 }
 
 .main__services {}
@@ -443,7 +444,9 @@ https://css-live.ru/articles/zagadochnye-otstupy-mezhdu-inlajn-blokami.html
 .services__offers {
   padding: 0;
   margin: 0 0 66px 0;
+
   font-size: 0;
+
   list-style: none;
 }
 
@@ -451,7 +454,9 @@ https://css-live.ru/articles/zagadochnye-otstupy-mezhdu-inlajn-blokami.html
   display: inline-block;
   max-width: 324px;
   padding: 50px 43px;
+
   text-align: center;
+
   background: #ffffff;
 }
 
@@ -473,9 +478,11 @@ https://css-live.ru/articles/zagadochnye-otstupy-mezhdu-inlajn-blokami.html
 
 .card__title {
   margin: 0 0 20px 0;
+
   font-weight: 900;
   font-size: 19px;
   line-height: 26px;
+
   color: #02133C;
 }
 
@@ -483,4 +490,191 @@ https://css-live.ru/articles/zagadochnye-otstupy-mezhdu-inlajn-blokami.html
 
 .services__row {
   text-align: center;
+}
+
+
+/* ! --------------customer----------------- */
+
+.customer {}
+
+.main__customer {
+  margin: 0 0 210px 0;
+}
+
+.customer__subtitle {
+  display: block;
+  margin: 0 0 33px 0;
+}
+
+.customer__title {
+  display: inline-block;
+  margin: 0 0 0 0;
+  max-width: 324px;
+
+  vertical-align: top;
+}
+
+.customer__cards {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  margin: -43px 0 0 0;
+
+  font-size: 0;
+
+  list-style: none;
+}
+
+.customer__card {
+  padding: 50px 43px;
+  display: inline-block;
+  max-width: 324px;
+  background: #ffffff;
+}
+
+.customer__card:first-child {
+  margin: 0 24px 0 0;
+}
+
+.customer__text {
+  margin: 0 0 18px 0;
+}
+
+.customer__icon {
+  margin: 0 17px 0 0;
+}
+
+.customer__nic-name {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 48px;
+  letter-spacing: 0.15px;
+  vertical-align: top;
+  color: #02133C;
+}
+
+
+/* ! --------------impact----------------- */
+
+.impact {
+  padding: 112px 0 0 0;
+  background: #02133C url(../img/impact/overlay\ image.png) center center no-repeat;
+  border: 1px solid transparent;
+}
+
+.main__impact {
+  position: relative;
+  margin: 0 0 100px 0;
+}
+
+.impact__wrap {
+  display: inline-block;
+  margin: 0 100px 0 0;
+}
+
+.impact__subtitle {
+  margin: 0 0 32px 0;
+}
+
+.impact__subtitle::before {
+  content: "";
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  padding: 0 0 0 16px;
+  
+  background: url(../img/impact/Overline\ Mark.svg) 0 0/24px 24px no-repeat;
+}
+
+.subtitle--color-white {
+  color: #ffffff;
+}
+
+.impact__title {
+  max-width: 411px;
+  margin: 0 111px 76px 0;
+}
+
+.title--color-white {
+  color: #ffffff;
+}
+
+.impact__img {
+  display: inline-block;
+}
+
+.impact__img img {
+  position: absolute;
+  top: -80px;
+
+  display: block;
+}
+
+.impact__row {
+  margin: 0;
+  padding: 0;
+  margin: 0 0 59px 0;
+  font-size: 0;
+  list-style: none;
+}
+
+.impact__item {
+  display: inline-block;
+  max-width: 237px;
+  margin: 0 24px 0 0;
+  font-size: 0;
+}
+
+.impact__item:nth-child(4n+4) {
+  margin-right: 0;
+}
+
+.impact__icon {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 11px 0 0;
+}
+
+.impact__body {
+  display: inline-block;
+  width: 149px;
+  font-size: 0;
+  /* vertical-align: bottom; */
+}
+
+.impact__head {
+  margin: 0 0 3px 0;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 42px;
+  color: #C40B0B;
+}
+
+.text {}
+
+.text--color-white {
+  color: #f5f5f5;
+}
+
+.impact__declaration {
+  display: inline-flex;
+  justify-content: space-between;
+  margin: 0 0 -75px 0;
+  padding: 45px 75px;
+  background: #ffffff;
+}
+
+.impact__text {
+  display: inline-block;
+  max-width: 562px;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 30px;
+  color: #02133C;
+}
+
+.btn {}
+
+.impact__btn {
+  vertical-align: top;
 }
